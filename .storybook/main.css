@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'dana VF';
+    src: url('../src/app/DanaVF.woff2') format('woff-variations');
+    font-display: swap;
+}
+
+
+:root {
+    --font-dana: 'dana VF' !important;
+}
+
+* {
+    font-family: var(--font-dana) !important;
+}
